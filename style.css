@@ -1,0 +1,55 @@
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.listedTest {
+    color: brown;
+}
+
+.nav-bar {
+    background-color: blue;
+    padding: 10px;
+}
+
+.all-recipes {
+    margin: 0 auto;
+    padding: 10px;
+    display: inline;
+}
+
+ul {
+    padding: 20px;
+    margin: 5px;
+    list-style: none;
+}
+
+.adobo {
+    border: 1px solid black;
+    padding: 8px;
+    margin: 10px;
+    height: auto;
+    width: 120px;
+    text-align: center;
+}
+
+.adobo:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.lumpia {
+    border: 1px solid black;
+    padding: 8px;
+    margin: 10px;
+    height: auto;
+    width: 120px;
+    text-align: center;
+}
+
+.lumpia:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
