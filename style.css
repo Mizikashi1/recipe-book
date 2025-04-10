@@ -12,12 +12,22 @@
 .nav-bar {
     background-color: blue;
     padding: 10px;
+    display: flex;
+}
+
+.left-nav-bar {
+    display: flex;
+}
+
+.right-nav-bar {
+    display: flex;
 }
 
 .all-recipes {
     margin: 0 auto;
     padding: 10px;
-    display: inline;
+    display: flex;
+    justify-content: flex-end;
 }
 
 ul {
@@ -53,3 +63,27 @@ ul {
 }
 
 
+/* Flexbox-Testing */
+.flexbox-container {
+    background-color: bisque;
+    display: flex;
+    padding: 10px;
+}
+
+.flexbox-title {
+    text-align: center;
+}
+
+.flexbox-container div {
+    border: 1px solid black;
+    height: 100px;
+    padding: 8px;
+    margin: 11px;
+    flex: 1;
+}
+
+.flexbox-container .box3-1 {
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+}
