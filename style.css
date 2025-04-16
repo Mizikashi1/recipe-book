@@ -9,10 +9,18 @@
     color: brown;
 }
 
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 24px;
+}
 .nav-bar {
     background-color: blue;
     padding: 10px;
     display: flex;
+    justify-content: space-between;
 }
 
 .left-nav-bar {
@@ -23,11 +31,23 @@
     display: flex;
 }
 
-.all-recipes {
-    margin: 0 auto;
-    padding: 10px;
+/* body */
+
+body{
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+.body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.all-recipes {
+    display: flex;
+    justify-content: flex-start;
 }
 
 ul {
@@ -36,32 +56,19 @@ ul {
     list-style: none;
 }
 
-.adobo {
+a {
+    display: flex;
     border: 1px solid black;
-    padding: 8px;
-    margin: 10px;
-    height: auto;
-    width: 120px;
-    text-align: center;
+    margin: 8px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
 }
 
-.adobo:hover {
-    background-color: rgba(0, 0, 0, 0.1);
+a:hover {
+    cursor: pointer;
+    background-color: rgba(1, 1, 1, 0.3);
 }
-
-.lumpia {
-    border: 1px solid black;
-    padding: 8px;
-    margin: 10px;
-    height: auto;
-    width: 120px;
-    text-align: center;
-}
-
-.lumpia:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
 
 /* Flexbox-Testing */
 .flexbox-container {
@@ -86,4 +93,11 @@ ul {
     border: 1px solid black;
     height: auto;
     width: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
 }
